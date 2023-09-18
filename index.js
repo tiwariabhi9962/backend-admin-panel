@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://tiwariabhi9961:dell001@cluster0.3ckbizs.mongodb.net/"
+  "mongodb+srv://tiwariabhi9961:maheshdalle@cluster0.3ckbizs.mongodb.net/"
 );
 
 app.get("/getUsers", (req, res) => {
